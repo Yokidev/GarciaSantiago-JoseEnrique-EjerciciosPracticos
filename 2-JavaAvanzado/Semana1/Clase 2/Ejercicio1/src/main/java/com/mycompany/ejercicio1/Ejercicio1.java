@@ -1,5 +1,7 @@
 package com.mycompany.ejercicio1;
 
+import com.mycompany.ejercicio1.models.Agente;
+
 /**
  *
  * @author jegs_
@@ -17,6 +19,17 @@ public class Ejercicio1 {
          * Asegúrate de controlar la concurrencia para evitar conflictos en la asignación de llamadas a los agentes.
          */
         
+        Agente agente1 = new Agente("Jose");
+        Agente agente2 = new Agente("Daniel");
+        Agente agente3 = new Agente("Cayetano");
+        Agente agente4 = new Agente("Javier");
+        Agente agente5 = new Agente("Adrian");
+        
+        agente1.run();
+        agente2.run();
+        agente3.run();
+        agente4.run();
+        agente5.run();
         
         
         
