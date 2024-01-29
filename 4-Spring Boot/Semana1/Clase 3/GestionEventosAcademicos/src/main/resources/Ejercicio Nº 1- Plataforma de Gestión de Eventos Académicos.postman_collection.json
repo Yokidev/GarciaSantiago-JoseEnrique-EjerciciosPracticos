@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "30c2bba3-c207-44fd-ae4a-10347814b22b",
+		"name": "Ejercicio Nº 1: Plataforma de Gestión de Eventos Académicos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26253391"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/evento",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"titulo\": \"Título del evento\",\r\n    \"descripcion\": \"Descripción del evento\",\r\n    \"fecha\": \"2024-01-29\",\r\n    \"hora\": \"15:00\",\r\n    \"lugar\": \"Lugar del evento\",\r\n    \"ponente\": \"Ponente del evento\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/evento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"evento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/evento/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/eventos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"eventos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/eventos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/eventos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"eventos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

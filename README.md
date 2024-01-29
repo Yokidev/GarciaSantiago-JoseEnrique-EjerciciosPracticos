@@ -17,7 +17,7 @@ El proyecto esta dividido en diferentes carpetas en funcion de los ejercicios pr
 <em>Java: Buenas prácticas<em>
 - Semana 1
   
-<em>Track específico (Nombre provisional)<em>
+<em>Spring Boot<em>
 - Semana 1
 - Semana 2
 - Semana 3
